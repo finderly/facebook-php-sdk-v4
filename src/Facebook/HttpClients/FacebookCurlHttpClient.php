@@ -70,7 +70,7 @@ class FacebookCurlHttpClient implements FacebookHttpable
   /**
    * @var boolean If IPv6 should be disabled
    */
-  protected static $disableIPv6;
+  protected static $disableIPv6 = true;
 
   /**
    * @const Curl Version which is unaffected by the proxy header length error.
